@@ -1,5 +1,5 @@
 import React from "react";
-import NavTabs from "./NavTabs";
+
 
 function Header() {
     
@@ -8,7 +8,7 @@ function Header() {
 return(
     <div className="header">
         Hello
-        <NavTabs />
+
         
     </div>
 )

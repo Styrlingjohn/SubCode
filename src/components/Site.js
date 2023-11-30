@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from './adds/Footer';
+
 function Website() {
 
 
@@ -13,9 +13,7 @@ function Website() {
 
       <br/>
 
-      <div className="F-H-1">
-        <Footer />
-      </div>
+    
     </div>
   );
 };
