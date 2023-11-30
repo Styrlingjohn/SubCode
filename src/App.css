@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Alkatra', cursive;
+}
+
+.background {
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.S-H-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.A-C-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  background-image: url(./components/Logos/SubCode-logos_black.png);
+  background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+  height: 100rem;
+
+}
+
+.F-H-1 {
+  background-color: black;
+  width: 100%;
+  color: antiquewhite;
+}
+
+#footer {
+  display: flex;
+}
