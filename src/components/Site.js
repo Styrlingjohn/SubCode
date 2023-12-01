@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import NavTabs from "./adds/NavTabs";
 import About from './pages/About';
-import Footer from "./adds/Footer";
 import Home from "./pages/Home";
-
+import Header from "./adds/Header";
+import Footer from "./adds/Footer";
 
 
 function Website() {
@@ -27,10 +27,19 @@ function Website() {
 
   return (
     <div className="page-container">
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
-      <Footer currentPage={currentPage} handlePageChange={handlePageChange} />
+      <section>
+        <Header />
+      </section>
+      <div>
+        <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      </div>
 
+      {renderPage()}
+
+
+      <div className="F-H-1">
+        <Footer />
+      </div>
     </div>
 
   );

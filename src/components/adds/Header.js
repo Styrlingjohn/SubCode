@@ -9,6 +9,7 @@ function Header() {
         <div className="header">
             <img alt="Logo" className="logo" src="Logos/SubCode-logos_white.png" />
             <h1 className="H-T"> S U B C O D E </h1>
+            
         </div>
     )
 };
