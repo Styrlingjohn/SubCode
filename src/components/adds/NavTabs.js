@@ -6,52 +6,60 @@ function NavTabs({ currentPage, handlePageChange }) {
 
 
     return (
-        <header className='navHeader' >
-            <nav className="main-header-menu">
-                <ul
-                    style={{
-                        display: 'flex',
-                        fontFamily: 'Cantarell',
-                        flexDirection: 'row',
-                        justifyContent: 'flex-end',
-                        textDecoration: 'none',
-                    }}
-                    className="list-unstyled"
-                >
+        <header className='header' >
+            <div className=' H-1 '>
+                <img alt="Logo" className="logo" src="Logos/SubCode-logos_white.png" />
+                <div>
+                    <h1 className="H-T-1"> S U B C O D E </h1>
+                    <h2 className='H-T-2'> Marketing and Web Design </h2>
+                </div>
 
-                    <li style={linkStyle} className='nav-tab'>
-                        <a
-                            href="#home"
-                            onClick={() => handlePageChange('Home')}
-                            className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-                        >
-                            Home
-                        </a>
-                    </li>
+                <nav className="main-header-menu">
+                    <ul
+                        style={{
+                            display: 'flex',
+                            flexDirection: 'column',
+                            justifyContent: 'space-evenly',
+                            textDecoration: 'none',
+                        }}
 
-                    <li style={linkStyle} className='nav-tab'>
-                        <a
-                            href="#about"
-                            onClick={() => handlePageChange('About')}
-                            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                        className="list-unstyled"
+                    >
 
-                        >
-                            About
-                        </a>
-                    </li>
+                        <li style={linkStyle} className='nav-tab'>
+                            <a
+                                href="#home"
+                                onClick={() => handlePageChange('Home')}
+                                className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+                            >
+                                Home
+                            </a>
+                        </li>
 
-                    <li style={linkStyle} className='nav-tab'>
-                        <a
-                            href="#resume"
-                            onClick={() => handlePageChange('Resume')}
-                            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-                        >
-                            Resume
-                        </a>
-                    </li>
+                        <li style={linkStyle} className='nav-tab'>
+                            <a
+                                href="#about"
+                                onClick={() => handlePageChange('About')}
+                                className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
 
-                </ul>
-            </nav>
+                            >
+                                About
+                            </a>
+                        </li>
+
+                        <li style={linkStyle} className='nav-tab'>
+                            <a
+                                href="#resume"
+                                onClick={() => handlePageChange('Resume')}
+                                className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+                            >
+                                Resume
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
         </header>
     );
 }
