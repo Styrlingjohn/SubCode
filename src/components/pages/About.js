@@ -2,11 +2,11 @@ import React from 'react';
 
 
 
- function About() {
+function About() {
 
   return (
     <div>
-FUUUUUCK
+      About the company
     </div>
   );
 }

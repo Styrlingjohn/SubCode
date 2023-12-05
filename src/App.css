@@ -67,8 +67,10 @@ ul {
 
 
 .nav-tab {
-font-size: 1vw;
-margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vw;
 }
 
 .nav-tab:hover {
@@ -94,7 +96,7 @@ margin-bottom: 0;
   align-items: center;
   width: 75%;
   background-color: rgb(170, 170, 162);
-  height: 100rem;
+ 
 
 }
 
@@ -113,6 +115,13 @@ margin-bottom: 0;
   background-repeat: no-repeat;
   background-position: center;
   height: 350px;
+}
+
+
+
+.C-B {
+  height: 37.8vw;
+
 }
 
 

@@ -4,6 +4,7 @@ import About from './pages/About';
 import Home from "./pages/Home";
 
 import Footer from "./adds/Footer";
+import Contact from "./pages/Contact";
 
 
 function Website() {
@@ -16,7 +17,10 @@ function Website() {
       return <Home />;
     }
     if (currentPage === 'About') {
-      return <About />;
+    return <About />;
+    }
+    if (currentPage === 'Contact') {
+    return <Contact />;
     }
   };
 
