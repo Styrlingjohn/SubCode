@@ -30,7 +30,7 @@ function Website() {
 
 
   return (
-    <div className="page-container">
+    <div>
       <div>
         <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       </div>
@@ -38,9 +38,9 @@ function Website() {
       {renderPage()}
 
 
-      <div className="F-H-1">
+     
         <Footer />
-      </div>
+        
     </div>
 
   );

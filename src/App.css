@@ -5,6 +5,11 @@
   font-family: 'Lato-Regular';
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .background {
   background-color: rgb(170, 170, 162);
 }
@@ -62,7 +67,6 @@
 
 ul {
   list-style-type: none;
-
 }
 
 
@@ -96,16 +100,9 @@ ul {
   align-items: center;
   width: 75%;
   background-color: rgb(170, 170, 162);
- 
-
 }
 
-.F-H-1 {
-  background-color: black;
-  width: 100%;
-  padding-top: 5%;
-  color: rgb(170, 170, 162);
-}
+
 
 .each-slide-effect>div {
   display: flex;
@@ -120,12 +117,26 @@ ul {
 
 
 .C-B {
-  height: 37.8vw;
-
+  height: 37.8vw
 }
 
 
-
-#footer {
+.F-cont {
   display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  height: inherit;
+  width: 100%;
+  background-color: black;
+}
+
+
+.F-CI {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20%;
+  padding-bottom: 1%;
+  color: white;
+  border-left: 2px solid white;
 }
