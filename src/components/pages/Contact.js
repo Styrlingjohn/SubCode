@@ -22,7 +22,7 @@ function Contact() {
                 </div>
                 <div className='col-md-8'>
                     <label for="emailInfo" className='form-label'> E-Mail </label>
-                    <input type='email' className='form-control' id='emailInfo'
+                    <input type='email' name='email' className='form-control' id='emailInfo'
                         placeholder='JohnDoe@email.com' required></input>
                 </div>
                 <div className='col-md-4'>
