@@ -9,7 +9,7 @@ function Contact() {
             <h1> Contact me! </h1>
 
 
-            <form className='row g-3' action="https://formsubmit.co/styrling_morris@yahoo.com" method="POST">
+            <form className='row g-3' action="https://formsubmit.co/fd08a4a5e7d89d2473e2c844462f5082" method="POST">
                 <div className='col-md-6'>
                     <label for='firstName' className='form-label'> First Name</label>
                     <input type='text' className='form-control' id="firstName"
