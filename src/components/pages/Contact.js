@@ -9,7 +9,7 @@ function Contact() {
             <h1> Contact me! </h1>
 
 
-            <form className='row g-3' action="https://formsubmit.co/styrlingjohn43@gmail.com" method="POST">
+            <form className='row g-3' action="https://formsubmit.co/b9095cf0d6d8d869bb3c16dd3627fdfa" method="POST">
                 <div className='col-md-6'>
                     <label for='firstName' className='form-label'> First Name</label>
                     <input type='text' className='form-control' id="firstName"
@@ -22,11 +22,11 @@ function Contact() {
                 </div>
                 <div className='col-md-8'>
                     <label for="emailInfo" className='form-label'> E-Mail </label>
-                    <input type='email' name='email' className='form-control' id='emailInfo'
+                    <input type='email' name='Email' className='form-control' id='emailInfo'
                         placeholder='JohnDoe@email.com' required></input>
                 </div>
                 <div className='col-md-4'>
-                    <label for='phoneNumber' className='form-label'> Phone Number </label>
+                    <label for='phoneNumber' name= 'Phone Number' className='form-label'> Phone Number </label>
                     <input type='text' className='form-control' id='phoneNumber'
                     required placeholder='123-456-7899'></input>
                 </div>
