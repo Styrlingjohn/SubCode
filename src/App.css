@@ -25,7 +25,6 @@ a {
   height: 15vh;
 }
 
-@media screen {}
 
 .H-1 {
   display: flex;
@@ -124,8 +123,6 @@ ul {
 .F-cont {
   display: flex;
   justify-content: space-evenly;
-  flex-direction: row;
-  height: inherit;
   width: 100%;
   background-color: black;
 }
@@ -134,9 +131,18 @@ ul {
 .F-CI {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  flex-wrap: wrap;
   width: 20%;
   padding-bottom: 1%;
   color: white;
-  border-left: 2px solid white;
+
+}
+
+@media screen and (max-width: 800px) {
+.F-cont {
+  width: 100%;
+  color: aqua;
+}
+
+
 }
