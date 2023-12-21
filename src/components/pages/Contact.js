@@ -31,6 +31,15 @@ function Contact() {
                     required placeholder='123-456-7899'></input>
                 </div>
 
+                <div className='col-md-4'>
+                <label for='projectType' className='form-label'>Project Type </label>
+                <select type='select' className='form-control' name='Project Type' id='projectType' required>
+                    <option>Select Here</option>
+                    <option>Finish Basement</option>
+                    <option>Renovation </option>
+                </select>
+                </div>
+
                 <div className='col-md-12'>
                     <label for="comments" className='form-label'> </label>
                     <textarea className='form-control' id='comments' name='comments' rows='7' required></textarea>
